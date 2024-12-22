@@ -7,7 +7,7 @@ function printFileContents(filePath) {
       console.error(`Error: Unable to read the file at path "${filePath}".`);
       return;
     }
-    console.log(data);
+    console.log(data); 
   })
 }
 
